@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: Another Create Wiki
+description: Another Create wiki, because people are getting tired of the Fandom Create wiki.
+theme: create
 
 url: https://just-the-docs.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Get Create on CurseForge: https://www.curseforge.com/minecraft/mc-mods/create

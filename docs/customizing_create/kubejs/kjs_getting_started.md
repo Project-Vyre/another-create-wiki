@@ -84,9 +84,16 @@ ServerEvents.recipes(events => {
         'I',
         'I',
         'H'
-    ],
+    ], {
         I: iron,
-        H: 'minecraft:stick' )
+        H: 'minecraft:stick' 
+    })
+    event.shaped('minecraft:shears', [
+      ' I',
+      'I '
+    ], {
+      I: iron,
+    })
 })
 ```
 

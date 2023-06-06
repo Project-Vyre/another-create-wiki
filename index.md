@@ -5,7 +5,7 @@ nav_order: 1
 ---
 # Another Create Wiki
 
-Documentation in this Create wiki applies for Create 0.5.1.
+The unofficial wiki.
 {: .fs-6 .fw-300 }
 
 
@@ -14,10 +14,20 @@ Documentation in this Create wiki applies for Create 0.5.1.
 
 [Create GitHub Repository]{: .btn .btn-outline .fs-4 .mr-2 }
 [Create Official Discord]{: .btn .btn-outline .fs-4 .mr-2 }
+[Create Development Status]{: .btn .btn-outline .fs-4 .mr-2}
 
-This is an unofficial Create Wiki made using Jekyll + GitHub Pages.
-
+This website is made using Jekyll + GitHub Pages.
 It is much lighter to load on your web browser and also mobile friendly.
+
+## About Create
+Create is a Minecraft mod created by **simibubi** *and* his team that empowers the player with a variety of blocks, tools and contraptions while also providing an aesthetically pleasing atmosphere. 
+
+*The added elements of tech are designed to leave as many design choices to the player as possible. With Create, the game isn't played inside a bunch of UIs, it challenges you to setup contraptions of animated components working together in many possible arrangements.*
+
+### Recommendations
+Before installing the mod, it is highly recommended to install [Just Enough Items (JEI) by mezz](https://www.curseforge.com/minecraft/mc-mods/jei) as the vanilla recipe book will not be able to guide you through the experience fully. If you are an architect, decorator and / or builder, it is also recommended to use [ItemZoom by mezz](https://www.curseforge.com/minecraft/mc-mods/itemzoom) as it shows the item in full scale.
+
+Also, don't forget to **Hold [W] to Ponder** as this can answer many of your questions.
 
 
 ### For Wiki Contributors
@@ -32,4 +42,5 @@ If [Jekyll] is installed on your computer, you can also build and preview the cr
 [Create GitHub Repository]: https://r.createmod.net/gh
 [Create Official Discord]: https://discord.gg/AjRTh6B
 [Support the Create Developers]: https://github.com/Creators-of-Create/Create/wiki/Supporting-the-Project
+[Create Development Status]: https://github.com/Creators-of-Create/Create/wiki/dev.status
 [Jekyll]: https://jekyllrb.com

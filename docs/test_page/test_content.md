@@ -2,7 +2,7 @@
 layout: default
 title: Extra Formatting Testing
 parent: Formatting Testing
-grand_parent: Miscellaneous
+grand_parent: Wiki Formatting Testing
 ---
 # h1 Readme.md
 Example text

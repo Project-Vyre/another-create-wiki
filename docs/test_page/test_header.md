@@ -3,7 +3,7 @@ layout: default
 title: Formatting Testing
 nav_order: 2
 has_children: true
-parent: Miscellaneous
+parent: Wiki Formatting Testing
 permalink: /docs/miscellaneous
 ---
 Hi! This is the test page for all sorts of formatting, using the markdown text from just-the-docs!

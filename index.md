@@ -19,7 +19,7 @@ The unofficial but simpler Create Wiki.
 This website is made using Jekyll + GitHub Pages.
 It is much lighter to load on your web browser and also mobile friendly.
 
-## About Create
+## About
 Create is a Minecraft mod created by **simibubi** *and* his team that empowers the player with a variety of blocks, tools and contraptions while also providing an aesthetically pleasing atmosphere.
 
 *The added elements of tech are designed to leave as many design choices to the player as possible. With Create, the game isn't played inside a bunch of UIs, it challenges you to setup contraptions of animated components working together in many possible arrangements.*

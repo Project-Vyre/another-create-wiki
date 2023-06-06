@@ -32,7 +32,9 @@ The tables below feature Create addons that are compatible with Create 0.5.1. *I
 | [*Create Deco* by talrey](https://www.curseforge.com/minecraft/mc-mods/create-deco) | `createdeco-1.3.3-1.19.2.jar` | May 27, 2023 |
 | [*Create: Crystal Clear* by singularity_cyvack](https://www.curseforge.com/minecraft/mc-mods/create-crystal-clear) | `create_crystal_clear-0.2.1-1.19.2.jar` | May 27, 2023 |
 | [*Create Stuff & Additions* by Furti_Two](https://www.curseforge.com/minecraft/mc-mods/create-stuff-additions) | `create-stuff-additions1.19.2_v2.0.3b.jar` | May 27, 2023 |
+| [*Create : Misc & Things* by to0pa_fr](https://www.curseforge.com/minecraft/mc-mods/create-misc-and-things) | `create_misc_and_things_ 1.19.2_3.0.jar` | May 24, 2023 |
 | [*Create: Ender Transmission* by Forsteri123](https://www.curseforge.com/minecraft/mc-mods/create-ender-transmission) | `createendertransmission-1.2.3.jar` | May 22, 2023 |
+
 
 ### Forge 1.18.2
 

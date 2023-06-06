@@ -11,7 +11,6 @@ This wiki is not finished and is a work in progress.
 The unofficial but simpler Create Wiki.
 {: .fs-6 .fw-300 }
 
-
 [Download Create from CurseForge]{: .btn .btn-primary .fs-4 .mr-2 }
 [Support the Create Developers]{: .btn .btn-primary .fs-4 .mr-2}
 

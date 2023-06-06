@@ -62,6 +62,7 @@ ServerEvents.recipes(event => {
 If you are on 1.18.2 the code below applies.
 ```js
 onEvent('recipes', event => {})
+```
 
 Also some code can exceed the width of the code block below, just wanted to make you aware of that.
 ```js

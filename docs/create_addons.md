@@ -7,7 +7,7 @@ nav_order: 12
 # Create Addons
 
 {: .warning }
-**WE ARE NOT RESPONSIBLE FOR GRAPHICAL GLITCHES OR CRASHES IF YOU ARE USING OPTIFINE!**
+**WE ARE NOT RESPONSIBLE FOR GRAPHICAL GLITCHES OR CRASHES IF YOU ARE USING OPTIFINE!** Instead, use Sodium + Iris Shaders if you are on Fabric. If you are on Forge, use Rubidium and Oculus.
 
 Here's a list of Create add-ons. Just check the compatibility list below. 
 

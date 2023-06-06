@@ -5,7 +5,7 @@ nav_order: 1
 ---
 # Another Create Wiki
 
-The unofficial wiki.
+The unofficial but simpler Create Wiki.
 {: .fs-6 .fw-300 }
 
 
@@ -20,12 +20,14 @@ This website is made using Jekyll + GitHub Pages.
 It is much lighter to load on your web browser and also mobile friendly.
 
 ## About Create
-Create is a Minecraft mod created by **simibubi** *and* his team that empowers the player with a variety of blocks, tools and contraptions while also providing an aesthetically pleasing atmosphere. 
+Create is a Minecraft mod created by **simibubi** *and* his team that empowers the player with a variety of blocks, tools and contraptions while also providing an aesthetically pleasing atmosphere.
 
 *The added elements of tech are designed to leave as many design choices to the player as possible. With Create, the game isn't played inside a bunch of UIs, it challenges you to setup contraptions of animated components working together in many possible arrangements.*
 
 ### Recommendations
-Before installing the mod, it is highly recommended to install [Just Enough Items (JEI) by mezz](https://www.curseforge.com/minecraft/mc-mods/jei) as the vanilla recipe book will not be able to guide you through the experience fully. If you are an architect, decorator and / or builder, it is also recommended to use [ItemZoom by mezz](https://www.curseforge.com/minecraft/mc-mods/itemzoom) as it shows the item in full scale.
+Before installing the mod, it is highly recommended to install [Just Enough Items (JEI) by mezz](https://www.curseforge.com/minecraft/mc-mods/jei) as the vanilla recipe book will not be able to guide you through the experience fully. 
+
+If you are an architect, decorator and / or builder, it is also recommended to use [ItemZoom by mezz](https://www.curseforge.com/minecraft/mc-mods/itemzoom) as it shows the item in full scale.
 
 Also, don't forget to **Hold [W] to Ponder** as this can answer many of your questions.
 

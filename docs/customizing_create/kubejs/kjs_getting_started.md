@@ -21,19 +21,25 @@ It contains the following folders and a `README.txt` file.
   - Here is where you put your custom item, armor, block and fluid textures. 
     - Yes, you can use `.json` files for custom block models.
     - Yes, you can use `.mcmeta` files to change how your block is displayed in-game and make another color variant for deepslate for example.
+
 - `client_scripts`
   - This is where your scripts related to tooltips, JEI modification and other client side things will go.
+
 - `config`
   - This is where you can put `defaultoptions.txt` so you don't have to use DefaultOptions.
   - Setting the Window Title. That's the client name that shows up in the window on the top left corner if you don't know what that means.
   - Setting the client icon. Must be an `.png` file exported in 32-bit, otherwise it will cause a JVM crash.
+
 - `data`
   - Put the `data` folder contents of your datapacks in here. It will not work if you have it like: `kubejs\data\bigcustomdatapack\`
+
 - `exported`
   - You don't really need to worry about it. It's just where data dumps like texture atlases are well... dumped.
+
 - `server_scripts`
   - This is where the recipe magic happens! Remember to `Ctrl + S` to save your recipe once it is finished then type /reload.
   - You can also modify item tags, loot tables, and more in here. 
+
 - `startup_scripts`
   - Scripts for your custom items, blocks, armor and fluids go in here.
   - This is where you can modify item and armor durability.
@@ -61,8 +67,30 @@ ServerEvents.recipes(event => {
 
 If you are on 1.18.2 the code below applies.
 ```js
-onEvent('recipes', event => {})
+onEvent('recipes', event => {
+    // type your scripts here
+})
 ```
+
+In both cases, did you notice how both begin with `(event => {` and then end with `})`? It is important to keep your scripts in that "group" / region of the code, otherwise it may not load.
+
+You can also set variables like this to help with typing less.
+
+```js
+let iron = 'minecraft:iron_ingot'
+
+ServerEvents.recipes(events => {
+    event.shaped('minecraft:iron_sword', [
+        'I',
+        'I',
+        'H'
+    ],
+        I: iron,
+        H: 'minecraft:stick' )
+})
+```
+
+What is happening here is that I made a shaped recipe
 
 Also some code can exceed the width of the code block below, just wanted to make you aware of that.
 ```js

@@ -1,4 +1,5 @@
 # Another Create Wiki
+<img alt="jekyll" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/built-with/jekyll_vector.svg">
 
 This is a work in progress, but you can check the website here: https://project-vyre.github.io/another-create-wiki/
 

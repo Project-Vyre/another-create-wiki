@@ -50,14 +50,25 @@ Open up Visual Studio Code and click `Open Folder` and navigate to the `kubejs` 
 
 Click it, then click the `Select Folder` button on the bottom right corner. If a prompt says "Do you want to trust the authors of these files?" click yes. 
 
-In the `server_scripts` folder, there should already be a `script.js` file. Personally I would organize scripts by mod if you want to easily transfer your scripts without having to delete and remove certain lines of code.
+In the `server_scripts` folder, there should already be a `script.js` file. Open that via the VSCode Explorer panel where you can see all the kubejs folders. Personally I would organize scripts by mod if you want to easily transfer your scripts without having to delete and remove certain lines of code.
 
 If you are on 1.19.2 the code below applies.
+```js
+ServerEvents.recipes(event => {
+    // type your scripts here, also you don't need to use events you can shorten it to ServerEvents.recipes(e => {}) instead
+})
+```
+
+If you are on 1.18.2 the code below applies.
+```js
+onEvent('recipes', event => {})
+
 Also some code can exceed the width of the code block below, just wanted to make you aware of that.
 ```js
 // priority: 0
 // priority is how to get this script file to load before the others
 
+// a lot of things can be written in a single 
 ServerEvents.recipes(event => {
     // For starters, you can add a single line comment with two forward slashes like at the beginning of THIS comment
 
@@ -70,17 +81,26 @@ ServerEvents.recipes(event => {
     adsl;fkajs;dlkfjas;dflkjas;dlfkjasdf;lkasjdf;lkasdjds
     aaaaaaaaaaaaaaaaaaaaa;slkdfj;aslkdfj;adlkfj;asdlkfja;sldkfj;asldkfjasdlkfdajsdasf just make it readable */
 
-    // Note to self: Ensure all items here are base Create and vanilla!
+    // Note: Ensure all items here are base Create and vanilla! You can use items from other mods, but this is just focused on Create
     // recipes removal
     event.remove({id: 'create_sa:netherrack_recipe' }) // this is how you remove specific recipes by their recipeid
     event.remove({id: 'create_sa:obsidian_haunting' })
     event.remove({id: 'create:crushing/gravel' }) // some recipe ids contain modid:recipetype/slashes
     event.remove({id: 'create:crushing/netherrack' })
 
+    // note that the recipeid can also be the itemid, so be sure to press F3 + H to enable Advanced tooltips.
+
     event.remove({}) // whatever you do, do NOT use this, EVER. This removes ALL recipes that can be removed.
 
     event.remove({output: 'minecraft:wooden_pickaxe' }) // if you want to remove all recipes that output a specific item, this is how you do it.
 
-    event.remove({output: '#minecraft:planks' }) 
+    event.remove({output: '#minecraft:planks' }) // if you wanted to remove all recipes that output all items with a specific tag
+
+    event.remove({mod: 'extendedcrafting' }) // if you wanted to remove all recipes from a specific mod
+    event.remove({mod: 'farmersdelight' })
+    event.remove({mod: 'create' }) 
+
+    event.remove({})
 })
 ```
+

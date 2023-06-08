@@ -1,7 +1,7 @@
 ---
 title: Create Addon Compatibility
 layout: default
-nav_order: 12
+nav_order: 5
 ---
 
 # Create Addons

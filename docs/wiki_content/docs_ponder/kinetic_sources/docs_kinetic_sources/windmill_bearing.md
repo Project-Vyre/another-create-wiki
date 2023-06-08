@@ -1,8 +1,9 @@
 ---
-title: Large Cogwheel
+title: Windmill Bearing
 layout: default
 nav_order: 5
-parent: Kinetic Blocks
+grand_parent: Ponder Index
+parent: Kinetic Sources
 has_children: false
 has_toc: false
 ---

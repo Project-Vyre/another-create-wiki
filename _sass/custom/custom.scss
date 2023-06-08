@@ -1,0 +1,25 @@
+// Print-only styles.
+@media print {
+    .btn,
+    .btn-curseforge {
+        @include btn-color($white, $cf-000);
+      }
+      
+    .btn-modrinth {
+        @include btn-color($white, $mdr-000);
+      }
+  }
+
+/*
+@media print {
+    .side-bar,
+    .page-header {
+      display: none;
+    }
+    .main-content {
+      max-width: auto;
+      margin: 1em;
+    }
+  }
+  */
+  

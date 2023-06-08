@@ -1,7 +1,8 @@
 ---
-title: Mechanical Belt
+title: Clutch
 layout: default
-nav_order: 4
+nav_order: 6
+grand_parent: Ponder Index
 parent: Kinetic Blocks
 has_children: false
 has_toc: false

@@ -1,7 +1,7 @@
 ---
 title: Customizing Create
 layout: default
-nav_order: 5
+nav_order: 4
 has_children: true
 ---
 # Customizing Create
@@ -13,7 +13,6 @@ Currently there are two efficient and global (not per-world) methods of customiz
   - Simply write the recipe script then type the `/reload` command. That's it!
 - Both options accelerate the process of writing custom recipes greatly.
 - Only one of them can add custom Ponder scenes.
-
 
 Here's a basic rundown of both solutions.
 

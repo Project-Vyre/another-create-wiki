@@ -5,21 +5,25 @@ nav_order: 1
 ---
 # Another Create Wiki
 
-{: .note}
-This wiki is not finished and is a work in progress.
-
 The unofficial but simpler Create Wiki.
 {: .fs-6 .fw-300 }
 
-[Download Create from CurseForge]{: .btn .btn-primary .fs-4 .mr-2 }
-[Support the Create Developers]{: .btn .btn-primary .fs-4 .mr-2}
-
-[Create GitHub Repository]{: .btn .btn-outline .fs-4 .mr-2 }
-[Create Official Discord]{: .btn .btn-outline .fs-4 .mr-2 }
-[Create Development Status]{: .btn .btn-outline .fs-4 .mr-2}
+{: .note}
+This wiki is not finished and is a work in progress.
 
 This website is made using Jekyll + GitHub Pages.
 It is much lighter to load on your web browser and also mobile friendly.
+
+Everything Create related can be found in the Ponder Index page, with an easy navigation tree.
+
+[Download from CurseForge]{: .btn .btn-cf .fs-4 .mr-2 }
+[Download from Modrinth]{: .btn .btn-mdr .fs-4 .mr-2 }
+[Create Official Discord]{: .btn .btn-purple .fs-4 .mr-2 }
+
+[Support the Create Developers]{: .btn .btn-primary .fs-4 .mr-2 }
+[Create GitHub Repository]{: .btn .btn-outline .fs-4 .mr-2 }
+[Create Development Status]{: .btn .btn-outline .fs-4 .mr-2 }
+
 
 ## About
 Create is a Minecraft mod created by **simibubi** *and* his team that empowers the player with a variety of blocks, tools and contraptions while also providing an aesthetically pleasing atmosphere.
@@ -42,7 +46,8 @@ If [Jekyll] is installed on your computer, you can also build and preview the cr
 
 [^1]: [It can take up to 10 minutes for changes to the site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
-[Download Create from CurseForge]: https://r.createmod.net/cf
+[Download from CurseForge]: https://www.curseforge.com/minecraft/mc-mods/create
+[Download from Modrinth]: https://modrinth.com/mod/create
 [Create GitHub Repository]: https://r.createmod.net/gh
 [Create Official Discord]: https://discord.gg/AjRTh6B
 [Support the Create Developers]: https://github.com/Creators-of-Create/Create/wiki/Supporting-the-Project

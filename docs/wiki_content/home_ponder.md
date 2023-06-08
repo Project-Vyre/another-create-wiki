@@ -28,4 +28,12 @@ Not all Ponder scenes are done in a single scene, some have additional chapters 
 - `E` is the default key to **close** the Ponder scene.
 
 # Getting Started with Create
-Everything in Create is powered by Stress Units, abbreviated as `su` in-game.
+Here are some terms and tips to help you get acquainted. 
+- Everything in Create is powered by `Stress Units`, abbreviated as `su` in-game. 
+- **Higher** RPM requires more su while **lower** RPM requires less su.
+- The Wrench is your best friend, stop using the axe or pickaxe to pick up Create blocks that can be picked up by it.
+  - Many kinetic blocks can be rotated by it. Also includes decorative blocks like the `Metal Girder`.
+  - Mechanical Belts can be shortened with it
+  - I know it's an old habit to break, but please ;-;
+- There are many ways of solving one problem.
+  - 

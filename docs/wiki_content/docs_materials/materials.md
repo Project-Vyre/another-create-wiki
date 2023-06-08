@@ -68,6 +68,15 @@ These are materials that are needed for later.
 Pre-Nether obtainable, infinitely renewable and able to be automated fully.
 {: .fs-4 .fw-300 }
 
+Gold is needed for making the `Precision Mechanism` which is an important item in creating the following items:
+- Potato Cannon
+- Wand of Symmetry
+  - This can do a lot of things like help you build walls symmetrically, or have quadrilateral symmetry or 
+- Extendo Grip
+  - Grants 10 blocks of additional range to the player, has to be placed in your off-hand though.
+- Mechanical Arm
+  - This is highly useful for sorting items in your factory.
+
 ## Redstone
 Pre-Nether obtainable, non-renewable.
 {: .fs-4 .fw-300 }

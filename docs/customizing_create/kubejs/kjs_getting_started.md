@@ -6,7 +6,9 @@ parent: Customizing Create
 has_children: true
 ---
 
-# Introduction to KubeJS Create
+# Introduction to KubeJS
+Some KubeJS documentation with a focus on Create modification.
+{: .fs-6 .fw-300 }
 
 {: .important }
 This page is far from finished.
@@ -51,7 +53,7 @@ It contains the following folders and a `README.txt` file.
 DO NOT use an existing modID in your recipeID.
 
 {: .important }
-KubeJS uses slightly different syntax (way of typing "commands" in layman's terms) depending on which version of Minecraft you are using, specifically 1.19.2+ and 1.18.2. Will be skipping 1.16.5 syntax.
+KubeJS uses slightly different syntax (way of typing "commands" in layman's terms) depending on which version of Minecraft you are using, specifically 1.19.2+ and 1.18.2. I will be skipping 1.16.5 syntax, go bother someone else.
 
 For all intents and purposes, the main focus of this tutorial is for adding and removing your own recipes.
 
@@ -74,6 +76,9 @@ onEvent('recipes', event => {
     // type your scripts here
 })
 ```
+
+I will be using 1.19.2 syntax from here, but the nested code inside `(events => { the code inside here })` should still function.
+{: .note }
 
 In both cases, did you notice how both begin with `(event => {` and then end with `})`? It is important to keep your scripts in that "group" / region of the code, otherwise it may not load.
 

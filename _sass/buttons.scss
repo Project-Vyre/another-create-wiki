@@ -112,11 +112,11 @@
     @include btn-color($white, $green-100);
   }
 
-  .btn-curseforge {
+  .btn-cf {
     @include btn-color($white, $cf-000);
   }
   
-  .btn-modrinth {
+  .btn-mdr {
     @include btn-color($white, $mdr-000);
   }
   

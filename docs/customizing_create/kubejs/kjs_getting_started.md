@@ -8,6 +8,9 @@ has_children: true
 
 # Introduction to KubeJS Create
 
+{: .important }
+This page is far from finished.
+
 First step is to install the following:
 - [Visual Studio Code](https://code.visualstudio.com/)
   - I highly recommend using the GitHub theme. You can install it by clicking the button that looks like a 2x2 rubik's cube and the corner piece has been taken out on the left hand side of the VSCode window then searching up GitHub theme.

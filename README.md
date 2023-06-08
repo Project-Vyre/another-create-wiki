@@ -7,7 +7,7 @@ This is a work in progress, but you can check the website here: https://project-
 The goal with this wiki is to closely match what is in-game while adding some modpack developer insight to help those with no coding experience be able to customize Create to their own liking.
 
 Tasks to do: 
-- Currently colors are not visually accessible on the text callouts like warnings, highlights, notes, etc. They look sort of like annotations you would find on the sides of text books but are more noticeable. The colors will be fixed later.
+- Currently colors are not visually accessible on the text callouts like warnings, highlights, notes, etc. They look sort of like annotations you would find on the sides of text books but are more noticeable. The colors will be fixed later. (Has been fixed as of June 8th, 2023)
 - Implement Mermaid flow charts for easy recipe guidance.
 
 ### Kinetic Blocks

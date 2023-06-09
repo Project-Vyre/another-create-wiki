@@ -18,7 +18,7 @@ If you are also having issues with the add-ons crashing the game, please ensure 
 **Read the developer's changelog on their mod page.**
 
 ## Compatible with Create 0.5.1
-The tables below feature Create addons that are compatible with Create 0.5.1. *If* you install these on Create 0.5.0i, the game will crash.
+The tables below feature Create addons that are compatible with Create 0.5.1. *If* you install these on Create 0.5.0i, the game will most likely crash.
 
 ### Forge 1.19.2 
 
@@ -43,7 +43,10 @@ The tables below feature Create addons that are compatible with Create 0.5.1. *I
 | [*Create Cafe* by Myst](https://www.curseforge.com/minecraft/mc-mods/create-cafe) | `createcafe-1.10.1-1.18.2.jar` | May 24, 2023 |
 | [*Create Crafts & Additions* by MRHminer](https://www.curseforge.com/minecraft/mc-mods/createaddition) | `createaddition-1.18.2-20230524a.jar` | May 24, 2023 |
 | [*Create Slice & Dice* by possible_triangle](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice) | `sliceanddice-forge-1.2.0.jar` | Jun 1, 2023 |
+| [*Create Central Kitchen* by DragonsPlus](https://www.curseforge.com/minecraft/mc-mods/create-central-kitchen) | `create_central_kitchen-1.18.2-for-create-0.5.1.b-1.3.7.jar` | Jun 6, 2023 |
+| [*Create Enchantment Industry* by DragonsPlus](https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry) | `create_enchantment_industry-1.18.2-for-create-0.5.1.b-1.2.3.jar` | Jun 3, 2023 |
 | [*Create: Crystal Clear* by singularity_cyvack](https://www.curseforge.com/minecraft/mc-mods/create-crystal-clear) | `create_crystal_clear-0.2.1-1.18.2.jar.jar` | May 27, 2023 |
+| [*Create Stuff & Additions* by Furti_Two](https://www.curseforge.com/minecraft/mc-mods/create-stuff-additions) | `create-stuff-additions1.18.2_v2.0.3b.jar` | May 27, 2023 |
 
 ## Not Compatible with Create 0.5.1
 

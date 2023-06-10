@@ -110,3 +110,21 @@ ServerEvents.recipes(event => {
 {% include fix_linenos.html code=code_fence %}
 
 ## Sequenced Assembly
+The code below is actually very self explanatory. You also do not have to restate the transitional item which is located in `.transitionTo(<>)`.
+
+{% capture code_fence %}
+```css
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("seq_blue_ice_singularity")
+                                      .transitionTo(<item:extendedcrafting:singularity>)
+                                      .require(<item:minecraft:blue_ice>)
+                                      .loops(16)
+                                      .addOutput(<item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:blue_ice"}) * 1, 100)
+                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
+                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:blue_ice>))
+                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.require(<item:extendedcrafting:singularity>))
+                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.require(<item:extendedcrafting:singularity>))
+                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.require(<item:extendedcrafting:singularity>)));
+```
+{% endcapture %}
+{% assign code_fence = code_fence | markdownify %}
+{% include fix_linenos.html code=code_fence %}

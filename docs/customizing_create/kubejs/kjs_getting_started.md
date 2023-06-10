@@ -57,12 +57,20 @@ Click it, then click the `Select Folder` button on the bottom right corner. If a
 
 In the `server_scripts` folder, there should already be a `script.js` file. Open that via the VSCode Explorer panel where you can see all the kubejs folders. Personally I would organize scripts by mod if you want to easily transfer your scripts without having to delete and remove certain lines of code.
 
+Here is something that you should know: The word `event` is simply something that happens. When it comes to being inside the main `ServerEvent` / `onEvent` class, the word `event` can be changed to `e` to keep it short. Just ensure that it matches so that your `events` can be fired and be registered in-game.
+
 If you are on 1.19.2 the code below applies.
 
 {% capture code_fence %}
 ```js
 ServerEvents.recipes(event => {
     // type your recipe scripts here, also you don't need to use events you can shorten it to ServerEvents.recipes(e => {}) instead
+    event.recipes.createHaunting([outputs], [input])
+})
+
+// alternatively can be written as
+ServerEvents.recipes(e => {
+    e.recipes.createHaunting([outputs], [input])
 })
 ```
 {% endcapture %}
@@ -75,6 +83,13 @@ If you are on 1.18.2 the code below applies.
 ```js
 onEvent('recipes', event => {
     // type your recipe scripts here
+    event.recipes.createHaunting([outputs], [input])
+})
+
+// alternatively can be written as
+onEvent('recipes', e => {
+    // type your recipe scripts here
+    e.recipes.createHaunting([outputs], [input])
 })
 ```
 {% endcapture %}

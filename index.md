@@ -24,7 +24,6 @@ Everything Create related can be found in the Ponder Index page, with an easy na
 [Create GitHub Repository]{: .btn .btn-outline .fs-4 .mr-2 }
 [Create Development Status]{: .btn .btn-outline .fs-4 .mr-2 }
 
-
 ## About
 Create is a Minecraft mod created by **simibubi** *and* his team that empowers the player with a variety of blocks, tools and contraptions while also providing an aesthetically pleasing atmosphere.
 
@@ -39,8 +38,9 @@ Also, don't forget to **Hold [W] to Ponder** as this can answer many of your que
 
 
 ### For Wiki Contributors
-
 If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+
+[Wiki Trello]{: .btn .btn-blue .fs-4 .mr-2 }
 
 ----
 
@@ -52,4 +52,5 @@ If [Jekyll] is installed on your computer, you can also build and preview the cr
 [Create Official Discord]: https://discord.gg/AjRTh6B
 [Support the Create Developers]: https://github.com/Creators-of-Create/Create/wiki/Supporting-the-Project
 [Create Development Status]: https://github.com/Creators-of-Create/Create/wiki/dev.status
+[Wiki Trello]: https://trello.com/b/uUDDf4je/another-create-wiki
 [Jekyll]: https://jekyllrb.com

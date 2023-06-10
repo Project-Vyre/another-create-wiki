@@ -1,7 +1,7 @@
 ---
 title: Getting Started with KubeJS
 layout: default
-nav_order: 5
+nav_order: 1
 parent: Customizing Create
 has_children: true
 ---
@@ -58,18 +58,28 @@ Click it, then click the `Select Folder` button on the bottom right corner. If a
 In the `server_scripts` folder, there should already be a `script.js` file. Open that via the VSCode Explorer panel where you can see all the kubejs folders. Personally I would organize scripts by mod if you want to easily transfer your scripts without having to delete and remove certain lines of code.
 
 If you are on 1.19.2 the code below applies.
+
+{% capture code_fence %}
 ```js
 ServerEvents.recipes(event => {
-    // type your scripts here, also you don't need to use events you can shorten it to ServerEvents.recipes(e => {}) instead
+    // type your recipe scripts here, also you don't need to use events you can shorten it to ServerEvents.recipes(e => {}) instead
 })
 ```
+{% endcapture %}
+{% assign code_fence = code_fence | markdownify %}
+{% include fix_linenos.html code=code_fence %}
 
 If you are on 1.18.2 the code below applies.
+
+{% capture code_fence %}
 ```js
 onEvent('recipes', event => {
-    // type your scripts here
+    // type your recipe scripts here
 })
 ```
+{% endcapture %}
+{% assign code_fence = code_fence | markdownify %}
+{% include fix_linenos.html code=code_fence %}
 
 I will be using 1.19.2 syntax from here, but the nested code inside `(events => { the code inside here })` should still function.
 {: .note }
@@ -78,7 +88,10 @@ In both cases, did you notice how both begin with `(event => {` and then end wit
 
 You can also set variables like this to help with typing less.
 
+{% capture code_fence %}
 ```js
+// the variable iron is read as the item iron nugget so you don't have to keep typing it over
+// and over and over and over and over you get the point?
 let iron = 'minecraft:iron_ingot'
 
 ServerEvents.recipes(events => {
@@ -97,11 +110,21 @@ ServerEvents.recipes(events => {
       I: iron,
     })
 })
-```
 
-What is happening here is that I made a shaped recipe
+```
+{% endcapture %}
+{% assign code_fence = code_fence | markdownify %}
+{% include fix_linenos.html code=code_fence %}
+
+Both of these shaped crafting table recipes are recreations of the vanilla recipe for the Iron Sword and Shears.
+
+The letters between the single quotation marks are the "keys" which are then defined by the letter key definitions you provide below between the `{}` brackets after the crafting grid `[]` brackets. 
+
+Spaces in the single quotation mark grid [] equal empty space.
 
 Also some code can exceed the width of the code block below, just wanted to make you aware of that.
+
+{% capture code_fence %}
 ```js
 // priority: 0
 // priority is how to get this script file to load before the others
@@ -141,4 +164,7 @@ ServerEvents.recipes(event => {
     event.remove({})
 })
 ```
+{% endcapture %}
+{% assign code_fence = code_fence | markdownify %}
+{% include fix_linenos.html code=code_fence %}
 

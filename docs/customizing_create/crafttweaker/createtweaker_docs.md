@@ -109,6 +109,31 @@ ServerEvents.recipes(event => {
 {% assign code_fence = code_fence | markdownify %}
 {% include fix_linenos.html code=code_fence %}
 
+However, it can also be written like this. (Says ashley)
+
+{% capture code_fence %}
+```css
+import mods.create.MechanicalCrafterManager;
+var O as IIngredient = <item:minecraft:crying_obsidian>;
+var E as IIngredient = <item:create:electron_tube>;
+var A as IIngredient = <item:minecraft:air>;
+// MechanicalCrafterManager.addRecipe(name as string, output as IItemStack, ingredients as IIngredient[][]) as void
+<recipetype:create:mechanical_crafting>.addRecipe("zen_electron_tube_singularity", (<item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:electron_tube"}) * 1), [
+    [A, O, O, O, O, O, O, O, A],
+    [O, O, O, E, E, E, O, O, O],
+    [O, O, E, E, E, E, E, O, O],
+    [O, E, E, E, E, E, E, E, O],
+    [O, E, E, E, E, E, E, E, O],
+    [O, E, E, E, E, E, E, E, O],
+    [O, O, E, E, E, E, E, O, O],
+    [O, O, O, E, E, E, O, O, O],
+    [A, O, O, O, O, O, O, O, A]
+]);
+```
+{% endcapture %}
+{% assign code_fence = code_fence | markdownify %}
+{% include fix_linenos.html code=code_fence %}
+
 ## Sequenced Assembly
 The code below is actually very self explanatory. You also do not have to restate the transitional item which is located in `.transitionTo(<>)`.
 

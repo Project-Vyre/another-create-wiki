@@ -34,6 +34,8 @@ Before installing the mod, it is highly recommended to install [Just Enough Item
 
 If you are an architect, decorator and / or builder, it is also recommended to use [ItemZoom by mezz](https://www.curseforge.com/minecraft/mc-mods/itemzoom) as it shows the item in full scale.
 
+REI on Forge is not recomended due to the inability to hide items that are uncraftable such as the andesite and brass encased versions of the shaft, cogwheel and large cogwheel.
+
 Also, don't forget to **Hold [W] to Ponder** as this can answer many of your questions.
 
 

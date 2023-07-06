@@ -47,7 +47,7 @@ Save your raw copper ore to be processed with Crushing Wheels later on for maxim
 Pre-Nether obtainable, non-renewable.
 {: .fs-4 .fw-300 }
 
-Like the others, grab as much of it as possible! It is used to make brass ingots.
+Like the others, grab as much of it as possible! It is required to make brass ingots.
 
 {: .note}
 Pssst, Crushing Wheel refinement would like to speak to you.
@@ -64,7 +64,7 @@ Requires a heated Blaze Burner under a Basin with a Mechanical Mixer running at 
 These are materials that are needed for later.
 {: .fs-6 .fw-300 }
 
-## Gold
+### Gold
 Pre-Nether obtainable, infinitely renewable and able to be automated fully.
 {: .fs-4 .fw-300 }
 
@@ -77,15 +77,19 @@ Gold is needed for making the `Precision Mechanism` which is an important item i
 - Mechanical Arm
   - This is highly useful for sorting items in your factory.
 
-## Redstone
-Pre-Nether obtainable, non-renewable.
+### Redstone
+Pre-Nether obtainable, renewable.
 {: .fs-4 .fw-300 }
 
-## Quartz
+Redstone is actually renewable in vanilla Minecraft through Witches and trading with Clerics in villages and I kept forgetting this fact.
+
+However, redstone is not renewable through Create's crafting methods as it requires 1x Cinder Flour and 25mb of a Strength Potion.
+
+### Quartz
 Post-Nether obtainable, infinitely renewable and able to be automated fully.
 {: .fs-4 .fw-300 }
 
-## Obsidian
+### Obsidian
 Pre-Nether obtainable, infinitely renewable and able to be automated fully.
 {: .fs-4 .fw-300 }
 
@@ -97,4 +101,4 @@ Pre-Nether obtainable, infinitely renewable and able to be automated fully.
 If installed with Create, all materials are infinitely renewable. Have fun automating!
 
 ## Tinker's Construct
-If installed with Create, it is no longer necessary to go to the Nether to acquire a `Blaze Burner` 
+If installed with Create, it is no longer necessary to go to the Nether to acquire a `Blaze Burner` to create brass.

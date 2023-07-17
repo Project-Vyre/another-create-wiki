@@ -37,7 +37,7 @@ Here's a basic rundown of both solutions.
 - and much more!
 
 It is perfect for creating your own modpack, whether for personal enjoyment with friends or publishing a modpack on Modrinth or CurseForge. Just don't forget to ship the `kubejs` folder when exporting the profile in your launcher of choice. Just to give you a baseline of how performant KubeJS is, it can load custom recipes in 0.00003 seconds, or less.
-  - [*KubeJS Create*](https://www.curseforge.com/minecraft/mc-mods/kubejs-create) (also made by lat) while not mandatory, makes the process of writing recipes ***much*** faster so that you don't have to use `JSON` syntax. It currently does not support Create 0.5.1 and will cause the game to crash. They're working on it though, please be patient with them!
+  - [*KubeJS Create*](https://www.curseforge.com/minecraft/mc-mods/kubejs-create) (also made by lat) while not mandatory, makes the process of writing recipes ***much*** faster so that you don't have to use `JSON` syntax. **Now supports Create 0.5.1 as of 6/13/2023.**
   - [*PonderJS* by Lytho and originally kotakotik22](https://www.curseforge.com/minecraft/mc-mods/ponder) is what allows you to make custom Ponder scenes. There are no other mods that can do this.
   - Recipes written will automatically appear in JEI. You don't have to do anything else.
   - KubeJS uses JavaScript and as a result has native syntax highlighting in text editors like Visual Studio Code which you can download from here: https://code.visualstudio.com/

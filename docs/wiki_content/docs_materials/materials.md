@@ -82,7 +82,6 @@ Pre-Nether obtainable, renewable.
 {: .fs-4 .fw-300 }
 
 Redstone is actually renewable in vanilla Minecraft through Witches and trading with Clerics in villages and I kept forgetting this fact.
-
 However, redstone is not renewable through Create's crafting methods as it requires 1x Cinder Flour and 25mb of a Strength Potion.
 
 ### Quartz

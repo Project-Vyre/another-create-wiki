@@ -65,7 +65,9 @@ If you are on 1.19.2 the code below applies.
 ```js
 ServerEvents.recipes(event => {
     // type your recipe scripts here, also you don't need to use events you can shorten it to ServerEvents.recipes(e => {}) instead
-    event.recipes.createHaunting([outputs], [input])
+    event.recipes.createHaunting([outputs], [input]).id('kubejs:your_recipe_id_here') // haunting supports chanced outputs
+    event.recipes.createMixing([outputs], [inputs]).heated().id('kubejs:your_recipe_id_here') // mixing and compacting support .heated() and .superheated() at the end
+    event.recipes.createCompacting([outputs], [inputs]).id('kubejs:your_recipe_id_here')
 })
 
 // alternatively can be written as
@@ -96,7 +98,7 @@ onEvent('recipes', e => {
 {% assign code_fence = code_fence | markdownify %}
 {% include fix_linenos.html code=code_fence %}
 
-I will be using 1.19.2 syntax from here, but the nested code inside `(events => { the code inside here })` should still function.
+Please note that I will be using **1.19.2** syntax from here, but the nested code inside `(events => { the code inside here })` should still function. I would still check the official KubeJS Discord and Wiki for up-to-date information, however.
 {: .note }
 
 In both cases, did you notice how both begin with `(event => {` and then end with `})`? It is important to keep your scripts in that "group" / region of the code, otherwise it may not load.

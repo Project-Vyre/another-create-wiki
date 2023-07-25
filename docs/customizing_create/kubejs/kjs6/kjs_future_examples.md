@@ -13,6 +13,8 @@ This was written with KJS 6.1 in mind as of July 24th, 2023.
 
 Another option is to go to the Create Customized repository on my GitHub for better syntax colors and viewing. 
 
+[Create Customized - create.js]{: .btn .btn-outline .fs-4 .mr-2 }
+
 {% capture code_fence %}
 ```js
 ServerEvents.recipes(event => {
@@ -115,3 +117,5 @@ ServerEvents.recipes(event => {
 {% endcapture %}
 {% assign code_fence = code_fence | markdownify %}
 {% include fix_linenos.html code=code_fence %}
+
+[Create Customized - create.js]: https://github.com/CelestialAbyss/Create-Customized/blob/main/kubejs_future/server_scripts/create.js

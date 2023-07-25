@@ -11,6 +11,8 @@ This page contains examples only, with no comments in the code. All examples her
 
 This was written with KJS 6.1 in mind as of July 24th, 2023.
 
+Another option is to go to the Create Customized repository on my GitHub for better syntax colors and viewing. 
+
 {% capture code_fence %}
 ```js
 ServerEvents.recipes(event => {
@@ -66,7 +68,7 @@ ServerEvents.recipes(event => {
         G: '#forge:plates/gold',
         C: 'create:cogwheel',
         S: '#forge:rods/wooden'
-    }).id('kubejs:just_a_wrench_test')//.id('create:crafting/kinetics/wrench')
+    }).id('create:crafting/kinetics/wrench')
 
     event.recipes.createMechanicalCrafting('2x create:crushing_wheel', [
         ' AAA ',

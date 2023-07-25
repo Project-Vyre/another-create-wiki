@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
         G: '#forge:plates/gold',
         C: 'create:cogwheel',
         S: '#forge:rods/wooden'
-    }).id('create:crafting/kinetics/wrench')
+    }).id('kubejs:just_a_wrench_test')//.id('create:crafting/kinetics/wrench')
 
     event.recipes.createMechanicalCrafting('2x create:crushing_wheel', [
         ' AAA ',
@@ -107,7 +107,7 @@ ServerEvents.recipes(event => {
         event.recipes.createFilling(['create:unprocessed_obsidian_sheet'], ['create:unprocessed_obsidian_sheet', Fluid.of('minecraft:lava', 500)]),
         event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
         event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet')
-    ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1)
+    ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1).id('create:sequenced_assembly/sturdy_sheet')
 })
 ```
 {% endcapture %}

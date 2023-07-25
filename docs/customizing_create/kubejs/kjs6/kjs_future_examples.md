@@ -68,7 +68,19 @@ ServerEvents.recipes(event => {
         S: '#forge:rods/wooden'
     }).id('create:crafting/kinetics/wrench')
 
-    event.recipes.create.sequencedAssembly([
+    event.recipes.createMechanicalCrafting('2x create:crushing_wheel', [
+        ' AAA ',
+        'AAPAA',
+        'APSPA',
+        'AAPAA',
+        ' AAA '
+    ], {
+        A: 'create:andesite_alloy',
+        P: '#minecraft:planks',
+        S: '#forge:stone'
+    }).id('create:mechanical_crafting/crushing_wheel')
+
+    event.recipes.createSequencedAssembly([
         Item.of('create:precision_mechanism').withChance(120.0),
         Item.of('create:golden_sheet').withChance(8.0),
         Item.of('create:andesite_alloy').withChance(8.0),
@@ -89,6 +101,13 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:obsidian').withChance(0.75)
     ], 'minecraft:obsidian').processingTime(500).id('create:crushing/obsidian')
 
+    event.recipes.createSequencedAssembly([
+        'create:sturdy_sheet'
+    ], 'create:powdered_obsidian', [
+        event.recipes.createFilling(['create:unprocessed_obsidian_sheet'], ['create:unprocessed_obsidian_sheet', Fluid.of('minecraft:lava', 500)]),
+        event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+        event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet')
+    ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1)
 })
 ```
 {% endcapture %}

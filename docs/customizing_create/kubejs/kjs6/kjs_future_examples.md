@@ -13,7 +13,7 @@ This was written with KJS 6.1 in mind as of July 24th, 2023.
 
 Another option is to go to the Create Customized repository on my GitHub for better syntax colors and viewing. 
 
-[Create Customized - create.js]{: .btn .btn-outline .fs-4 .mr-2 }
+[Create Customized - create.js]{: .btn .btn-purple .fs-4 .mr-2 }
 
 {% capture code_fence %}
 ```js

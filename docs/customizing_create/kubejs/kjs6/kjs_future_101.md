@@ -33,10 +33,63 @@ This page is for KubeJS on Minecraft 1.19.2 and higher. Use `ServerEvents.recipe
 {: .highlight }
 Also here is a cool shortcut key that you can use... Press and hold `Ctrl` then `F` to activate your browser's Find tool then start typing. Your browser will try to find where that text or letter is located on the entire web page. This also works in-game with [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei) as long as you have the inventory pulled up without the vanilla search bar.
 
+## Vanilla Shaped and Shapeless Recipes
+These recipes below are exact JS rewrites of vanilla items. Spacing is only for visual purposes, but everything can be nested under one `ServerEvents.recipes()` so you don't have to make separate files.
+{% capture code_fence %}
+```js
+ServerEvents.recipes(event => {
+    event.shaped('minecraft:diamond_sword', [
+        'D',
+        'D',
+        'S'
+    ], {
+        D: 'minecraft:diamond',
+        S: 'minecraft:stick'
+    }).id('minecraft:diamond_sword')
+    
+    event.shaped('minecraft:chest', [
+        'WWW',
+        'W W',
+        'WWW'
+    ], {
+        W: '#minecraft:planks'
+    }).id('minecraft:chest')
+
+    // shapeless
+    event.shapeless('4x minecraft:oak_planks', ['#minecraft:oak_log']).id('minecraft:oak_planks')
+    /* 
+    The # symbol determines if an item is a tag ingredient or not.
+    Also, if you have JEI installed the information below is really useful.
+    PLEASE have advanced tooltips already enabled by pressing F3 + H on your keyboard! It really helps.
+    Hovering over an item in the crafting grid will say "Accepts any:" if applicable.
+    */
+    event.shapeless('minecraft:netherite_ingot', [
+        '4x minecraft:netherite_scrap',
+		'4x minecraft:gold_ingot'
+    ]).id('minecraft:netherite_ingot')
+    // can also be written as...
+    event.shapeless('minecraft:netherite_ingot', ['4x minecraft:netherite_scrap', '4x minecraft:gold_ingot']).id('minecraft:netherite_ingot')
+    // can also be written as but obviously not really recommended because it's hard to keep track of things.
+    event.shapeless('minecraft:netherite_ingot', [
+        'minecraft:netherite_scrap',
+        'minecraft:netherite_scrap',
+        'minecraft:netherite_scrap',
+        'minecraft:netherite_scrap',
+        'minecraft:gold_ingot',
+        'minecraft:gold_ingot',
+        'minecraft:gold_ingot',
+        'minecraft:gold_ingot'
+    ]).id('minecraft:netherite_ingot')
+})
+```
+{% endcapture %}
+{% assign code_fence = code_fence | markdownify %}
+{% include fix_linenos.html code=code_fence %}
+
 ## Compacting
 Copy and paste this code block into Visual Studio Code for better viewing. There should be a copy button (looks like a small clipboard) on the top right corner of the code block.
 
-Just a reminder you don't need to keep typing onEvent for each codeblock. All lines that start with `event.recipes` can all be nested under a single `onEvent('recipes', event => {})`.
+Just a reminder you don't need to keep typing `ServerEvents.recipes` for each codeblock. All lines that start with `event.recipes` can all be nested under a single `onEvent('recipes', event => {})`.
 
 {% capture code_fence %}
 ```js

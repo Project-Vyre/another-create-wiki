@@ -98,7 +98,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:cogwheel']),
         event.recipes.create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:large_cogwheel']),
         event.recipes.create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', '#forge:nuggets/iron'])
-    ]).transitionalItem('create:incomplete_precision_mechanism').loops(3).id('create:sequenced_assembly/precision_mechanism')
+    ]).transitionalItem('create:incomplete_precision_mechanism').loops(5).id('create:sequenced_assembly/precision_mechanism')
 
     event.recipes.createCrushing([
         'create:powdered_obsidian',
@@ -112,6 +112,13 @@ ServerEvents.recipes(event => {
         event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
         event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet')
     ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1).id('create:sequenced_assembly/sturdy_sheet')
+
+    event.recipes.createFilling([
+        'minecraft:redstone'
+    ], [
+        'create:cinder_flour'
+        Fluid.of('create:potion', 25, '{ Bottle: "REGULAR", Potion: "minecraft:strength" }')
+    ]).id('create:filling/redstone')
 })
 ```
 {% endcapture %}

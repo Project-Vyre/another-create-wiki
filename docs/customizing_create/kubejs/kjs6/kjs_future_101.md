@@ -1,9 +1,9 @@
 ---
-title: KubeJS
+title: KubeJS 1.19.2
 layout: default
 nav_order: 1
 grand_parent: Customizing Create
-parent: Getting Started with KubeJS
+parent: Getting Started with KubeJS 6.1
 has_children: false
 ---
 

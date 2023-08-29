@@ -9,7 +9,7 @@ The unofficial but simpler Create Wiki.
 {: .fs-6 .fw-300 }
 
 {: .note}
-This wiki is not finished and is a work in progress.
+This wiki is not finished and is a work in progress. There is also the current limitation regarding images, so crafting grids will be defined as diagrams.
 
 This website is made using Jekyll + GitHub Pages.
 It is much lighter to load on your web browser and also mobile friendly.
@@ -37,7 +37,6 @@ If you are an architect, decorator and / or builder, it is also recommended to u
 REI on Forge is not recomended due to the inability to hide items that are uncraftable such as the andesite and brass encased versions of the shaft, cogwheel and large cogwheel.
 
 Also, don't forget to **Hold [W] to Ponder** as this can answer many of your questions.
-
 
 ### For Wiki Contributors
 If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.

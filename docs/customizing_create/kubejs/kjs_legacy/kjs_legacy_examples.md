@@ -1,9 +1,9 @@
 ---
-title: KubeJS 6.1 Examples
+title: KubeJS 5.5 Examples
 layout: minimal
 nav_order: 2
 grand_parent: Customizing Create
-parent: Getting Started with KubeJS 6.1
+parent: Getting Started with KubeJS 5.5
 has_children: false
 ---
 
@@ -17,7 +17,7 @@ Another option is to go to the Create Customized repository on my GitHub for bet
 
 {% capture code_fence %}
 ```js
-ServerEvents.recipes(event => {
+onEvent('recipes', event => {
     event.shaped('create:andesite_alloy', [
         'NA',
         'AN'

@@ -1,7 +1,7 @@
 ---
 title: Contributing to the Wiki
 layout: default
-nav_order: 6
+nav_order: 7
 ---
 
 # Contributing to the Wiki

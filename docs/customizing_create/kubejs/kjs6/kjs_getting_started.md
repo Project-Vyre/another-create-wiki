@@ -1,16 +1,19 @@
 ---
-title: Getting Started with KubeJS
+title: Getting Started with KubeJS 6.1
 layout: default
 nav_order: 1
 parent: Customizing Create
 has_children: true
 ---
 
-# Introduction to KubeJS
+# Introduction to KubeJS 6.1
 Some KubeJS documentation with a focus on Create modification.
 {: .fs-6 .fw-300 }
 
 {: .important }
+As of August 28th 2023, documentation for KubeJS 5.5 has been moved to a separate page. 
+
+{: .note }
 This page is far from finished.
 
 First step is to install the following:
@@ -79,25 +82,6 @@ ServerEvents.recipes(e => {
 {% assign code_fence = code_fence | markdownify %}
 {% include fix_linenos.html code=code_fence %}
 
-If you are on 1.18.2 the code below applies.
-
-{% capture code_fence %}
-```js
-onEvent('recipes', event => {
-    // type your recipe scripts here
-    event.recipes.createHaunting([outputs], [input])
-})
-
-// alternatively can be written as
-onEvent('recipes', e => {
-    // type your recipe scripts here
-    e.recipes.createHaunting([outputs], [input])
-})
-```
-{% endcapture %}
-{% assign code_fence = code_fence | markdownify %}
-{% include fix_linenos.html code=code_fence %}
-
 Please note that I will be using **1.19.2** syntax from here, but the nested code inside `(events => { the code inside here })` should still function. I would still check the official KubeJS Discord and Wiki for up-to-date information, however.
 {: .note }
 
@@ -119,13 +103,13 @@ ServerEvents.recipes(events => {
     ], {
         I: iron,
         H: 'minecraft:stick' 
-    })
+    }).id('minecraft:iron_sword')
     event.shaped('minecraft:shears', [
       ' I',
       'I '
     ], {
       I: iron,
-    })
+    }).id('minecraft:shears')
 })
 
 ```
@@ -133,7 +117,7 @@ ServerEvents.recipes(events => {
 {% assign code_fence = code_fence | markdownify %}
 {% include fix_linenos.html code=code_fence %}
 
-Both of these shaped crafting table recipes are recreations of the vanilla recipe for the Iron Sword and Shears.
+Both of these shaped crafting table recipes are recreations of the vanilla recipe for the Iron Sword and Shears and include their Recipe ID.
 
 The letters between the single quotation marks are the "keys" which are then defined by the letter key definitions you provide below between the `{}` brackets after the crafting grid `[]` brackets. 
 

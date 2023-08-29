@@ -1,9 +1,9 @@
 ---
-title: KubeJS Legacy
+title: KubeJS Legacy 1.18.2
 layout: default
 nav_order: 2
 grand_parent: Customizing Create
-parent: Getting Started with KubeJS
+parent: Getting Started with KubeJS 5.5
 has_children: false
 ---
 

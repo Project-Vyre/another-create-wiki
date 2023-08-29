@@ -1,7 +1,7 @@
 ---
 title: Getting Started with CraftTweaker
 layout: default
-nav_order: 2
+nav_order: 3
 parent: Customizing Create
 has_children: true
 ---

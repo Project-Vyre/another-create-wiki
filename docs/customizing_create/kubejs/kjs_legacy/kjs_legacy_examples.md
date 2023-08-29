@@ -9,9 +9,9 @@ has_children: false
 
 This page contains examples only, with no comments in the code. All examples here are **exact** copies of vanilla Create recipes as they are in-game, with the only difference being that this is implemented with KubeJS. **Individual recipes are spaced out only for the sake of legibility.**
 
-This was written with KJS 6.1 in mind as of July 24th, 2023.
+This was written with KJS 5.5 in mind as of July 24th, 2023.
 
-Another option is to go to the Create Customized repository on my GitHub for better syntax colors and viewing. 
+Another option is to go to the Create Customized repository on my GitHub for better syntax colors and viewing. I'm aware that this currently links to the 1.19.2 example `.js` file but the only difference is the event listener which is the first thing you see on line 1 on the example below.
 
 [Create Customized - create.js]{: .btn .btn-purple .fs-4 .mr-2 }
 

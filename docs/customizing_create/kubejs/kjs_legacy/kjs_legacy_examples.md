@@ -125,4 +125,4 @@ onEvent('recipes', event => {
 {% assign code_fence = code_fence | markdownify %}
 {% include fix_linenos.html code=code_fence %}
 
-[Create Customized - create.js]: https://github.com/CelestialAbyss/Create-Customized/blob/main/kubejs_future/server_scripts/create.js
+[Create Customized - create.js]: https://github.com/CelestialAbyss/Create-Customized/blob/main/kubejs_1802/server_scripts/create.js
